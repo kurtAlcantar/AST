@@ -322,7 +322,7 @@ elif seleccion == 'Estadistica Descriptiva':
 
         # Realizemos un análisis exploratorio de los datos
         media_salarios = np.mean(salarios)
-        moda_salarios = stats.mode(salarios)[0][0]
+        moda_salarios = stats.mode(salarios)[0]
         mediana_salarios = np.median(salarios)
         std_salarios = np.std(salarios)
         salario_minimo = np.min(salarios)
